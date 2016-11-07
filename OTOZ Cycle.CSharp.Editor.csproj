@@ -105,6 +105,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="OTOZ Cycle.CSharp.Plugins.csproj">
+      <Project>{F83A1C90-4F78-6B42-50A5-A9476D219AFE}</Project>
+      <Name>OTOZ Cycle.CSharp.Plugins</Name>
+    </ProjectReference>
     <ProjectReference Include="OTOZ Cycle.CSharp.csproj">
       <Project>{62656924-6CC4-7048-4BA0-A84AA346CD29}</Project>
       <Name>OTOZ Cycle.CSharp</Name>
@@ -206,6 +210,10 @@
     <None Include="Assets\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
     <None Include="Assets\MCP\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
     <None Include="Assets\Plugins\Android\Assets\OSIG_Readme.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
